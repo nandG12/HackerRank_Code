@@ -19,7 +19,7 @@ public class Solution {
             int diff = Math.abs(s.charAt(i) - (s.charAt(len-i-1)));
             count += diff;
         }
-    return changes;
+    return count;
     }
 
     private static final Scanner scanner = new Scanner(System.in);
